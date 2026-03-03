@@ -3,67 +3,78 @@ const data = [
         brand: 'Samsung',
         model: 'S24',
         price: 550,
-        image: "https://macbro.uz/cdn/shop/files/9_21fc35b8-3291-4317-bdf5-19bce1ae9f2a.png?v=1747881900"
+
+        image: "https://rostov.store123.ru/upload/iblock/d51/d55xbv1albqlloxklw1offd57mmqyr3g.jpeg"
     },
     {
         brand: 'Samsung',
         model: 'S26 Ultra',
         price: 1890,
-        image: "https://macbro.uz/cdn/shop/files/9_21fc35b8-3291-4317-bdf5-19bce1ae9f2a.png?v=1747881900"
+
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1hld58fRJ-cfFVYj3zgsKmK0mLRs2vt8mLZuZGZPzVjOJLFQqghoGJTPzPY9eut1FeU4&usqp=CAU"
     },
     {
         brand: 'iPhone',
         model: '13 Pro',
         price: 700,
-        image: "https://macbro.uz/cdn/shop/files/9_21fc35b8-3291-4317-bdf5-19bce1ae9f2a.png?v=1747881900"
+    
+        image: "https://olcha.uz/image/700x700/products/2021-10-16/apple-iphone-13-256gb-25904-2.jpeg"
     },
     {
         brand: 'iPhone',
         model: 'SE',
-        price: 380,
-        image: "https://macbro.uz/cdn/shop/files/9_21fc35b8-3291-4317-bdf5-19bce1ae9f2a.png?v=1747881900"
+        price: 1,
+   
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu1l9OF0mqLf4Pv8FaNpuIJd21mX9v38Od0Q&s"
     },
     {
         brand: 'iPhone',
         model: '12',
         price: 380,
-        image: "https://macbro.uz/cdn/shop/files/9_21fc35b8-3291-4317-bdf5-19bce1ae9f2a.png?v=1747881900"
+   
+        image: "https://olcha.uz/image/700x700/products/2020-10-24/apple-iphone-12-128gb-18427-0.jpeg"
     },
     {
         brand: 'iPhone',
         model: '14',
         price: 380,
-        image: "https://macbro.uz/cdn/shop/files/9_21fc35b8-3291-4317-bdf5-19bce1ae9f2a.png?v=1747881900"
+ 
+        image: "https://tezz.uz/uploads/images/product/594/thumbs/215657-10501050.jpg"
     },
     {
         brand: 'Samsung',
         model: 'S26 Ultra',
         price: 1890,
-        image: "https://macbro.uz/cdn/shop/files/9_21fc35b8-3291-4317-bdf5-19bce1ae9f2a.png?v=1747881900"
+    
+        image: "https://radius.uz/_next/image?url=https%3A%2F%2Fnew.api.radius.uz%2Fmedia%2Fthumbnails%2Fproducts%2Fsm-s948_galaxys26ultra_front_black_251120_1_1ad869ac_thumbnail_2048.webp&w=1024&q=75"
     },
     {
         brand: 'Samsung',
         model: 'S22 Ultra',
         price: 1890,
-        image: "https://macbro.uz/cdn/shop/files/9_21fc35b8-3291-4317-bdf5-19bce1ae9f2a.png?v=1747881900"
+       
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScJiN3eVqB0UUpHrLB3MnH_HmgQB_eSsllig&s"
     },
     {
         brand: 'Redmi',
         model: 'Not 13',
         price: 300,
-        image: "https://macbro.uz/cdn/shop/files/9_21fc35b8-3291-4317-bdf5-19bce1ae9f2a.png?v=1747881900"
+      
+        image: "https://cdn.webshopapp.com/shops/256009/files/447245727/xiaomi-xiaomi-redmi-note-13-4g-6gb-128gb.jpg"
     },
     {
         brand: 'Redmi',
         model: 'Not 14 pro',
         price: 300,
-        image: "https://macbro.uz/cdn/shop/files/9_21fc35b8-3291-4317-bdf5-19bce1ae9f2a.png?v=1747881900"
+        
+        image: "https://minapi.beemarket.uz/prod-media/productImages/1737020296srnYI9gjoC1m.webp"
     },
     {
         brand: 'Redmi',
-        model: 'Not 10c',
+        model: ' 10c',
         price: 200,
-        image: "https://macbro.uz/cdn/shop/files/9_21fc35b8-3291-4317-bdf5-19bce1ae9f2a.png?v=1747881900"
+        
+        image: "https://tezz.uz/uploads/images/product/594/thumbs/215680_1-10501050.jpg "
     },
 ]
 
@@ -74,7 +85,7 @@ function Shop () {
     <h1 className="text-danger">Shop</h1>
     <div className="card-container d-flex gap-3">
         {
-            data.map( ({ brand, model, price, image }) => {
+            data.map( ({ brand, model, price, image  }) => {
                 return (
                     <>
                         <div class="card" style={{ width: "20rem" }}>
