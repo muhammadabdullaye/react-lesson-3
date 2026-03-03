@@ -1,5 +1,5 @@
 function Home() {
-    const [users, setUsers] = useState({});
+    const [users, setUsers] = useState([]);
 
     const fetchaUsers = () => {
     fetch('https://jsonplaceholder.typicode.com/users')
